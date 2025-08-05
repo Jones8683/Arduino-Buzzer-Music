@@ -8,6 +8,7 @@ void setup() {
 
 void loop() {
    if (!songPlayed) {
+
   // Define frequencies for each note
   int c = 261;
   int csharp = 277;
@@ -42,7 +43,6 @@ void loop() {
   int hihifsharp = 1479;
   int hihig = 1567;
   int hihigsharp = 1661;
-  
   
   //First Number = how long the note is played for
   //Second Number = delay before next note 
@@ -340,7 +340,6 @@ void loop() {
   tone(SPEAKER_PIN, asharp, 150); delay(150);
   tone(SPEAKER_PIN, g, 3000); delay(3000);
   
-
  songPlayed = true;
   }
 }
