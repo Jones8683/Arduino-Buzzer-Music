@@ -8,6 +8,7 @@ void setup() {
 
 void loop() {
    if (!songPlayed) {
+
   // Define frequencies for each note
   int c = 261;
   int csharp = 277;
@@ -52,13 +53,10 @@ void loop() {
   int lowlowasharp = 116;
   int lowb = 246;
 
-  
-  
   //First Number = how long the note is played for
   //Second Number = delay before next note 
 
   // Play the melody
-
   tone(SPEAKER_PIN, lowerf, 900);
   tone(SPEAKER_PIN, lowf, 900);
   delay(900);
@@ -210,10 +208,8 @@ void loop() {
   tone(SPEAKER_PIN, e, 900);
   tone(SPEAKER_PIN, g, 1600);
   delay(1800);
-
-  //  Next part
   
-    tone(SPEAKER_PIN, hif, 250); 
+  tone(SPEAKER_PIN, hif, 250); 
   tone(SPEAKER_PIN, f, 250); 
   delay(250);
   tone(SPEAKER_PIN, hif, 250); 
@@ -263,7 +259,7 @@ void loop() {
   tone(SPEAKER_PIN, gsharp, 500); 
   delay(500);
 
-    tone(SPEAKER_PIN, higsharp, 250); 
+  tone(SPEAKER_PIN, higsharp, 250); 
   tone(SPEAKER_PIN, gsharp, 250); 
   delay(250);
   tone(SPEAKER_PIN, higsharp, 250); 
@@ -300,7 +296,7 @@ void loop() {
   tone(SPEAKER_PIN, hie, 250);
   delay(250);
 
-      tone(SPEAKER_PIN, hif, 250); 
+  tone(SPEAKER_PIN, hif, 250); 
   tone(SPEAKER_PIN, f, 250); 
   delay(250);
   tone(SPEAKER_PIN, hif, 250); 
@@ -350,16 +346,6 @@ void loop() {
   tone(SPEAKER_PIN, gsharp, 500); 
   delay(500);
 
-    tone(SPEAKER_PIN, higsharp, 250); 
-  tone(SPEAKER_PIN, gsharp, 250); 
-  delay(250);
-  tone(SPEAKER_PIN, higsharp, 250); 
-  tone(SPEAKER_PIN, gsharp, 250); 
-  delay(250);
-  tone(SPEAKER_PIN, higsharp, 500); 
-  tone(SPEAKER_PIN, gsharp, 500); 
-  delay(500);
-
   tone(SPEAKER_PIN, higsharp, 250); 
   tone(SPEAKER_PIN, gsharp, 250); 
   delay(250);
@@ -370,7 +356,15 @@ void loop() {
   tone(SPEAKER_PIN, gsharp, 500); 
   delay(500);
 
-  // next slow bit
+  tone(SPEAKER_PIN, higsharp, 250); 
+  tone(SPEAKER_PIN, gsharp, 250); 
+  delay(250);
+  tone(SPEAKER_PIN, higsharp, 250); 
+  tone(SPEAKER_PIN, gsharp, 250); 
+  delay(250);
+  tone(SPEAKER_PIN, higsharp, 500); 
+  tone(SPEAKER_PIN, gsharp, 500); 
+  delay(500);
 
   tone(SPEAKER_PIN, higsharp, 250); 
   tone(SPEAKER_PIN, gsharp, 250); 
