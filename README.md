@@ -15,7 +15,9 @@ What you'll need:
 
 ## Components Setup
 Buzzer left pin (–) → Arduino GND
+
 Buzzer middle pin (VCC) → Arduino 5V
+
 Buzzer right pin (S) → Arduino Digital Pin 3
 
 
