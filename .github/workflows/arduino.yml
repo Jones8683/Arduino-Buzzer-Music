@@ -1,0 +1,34 @@
+name: Compile Arduino
+
+on:
+  push:
+    paths:
+      - '**.ino'
+  pull_request:
+    paths:
+      - '**.ino'
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        board: [arduino:avr:uno]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Arduino CLI
+        uses: arduino/setup-arduino-cli@v1
+
+      - name: Install Board Platform
+        run: arduino-cli core install arduino:avr
+
+      - name: Compile Sketches
+        run: |
+          for sketch in $(find . -name '*.ino'); do
+            echo "Compiling $sketch"
+            arduino-cli compile --fqbn ${{ matrix.board }} $sketch
+          done
