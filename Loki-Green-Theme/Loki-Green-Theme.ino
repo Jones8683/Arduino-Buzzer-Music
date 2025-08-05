@@ -1,4 +1,4 @@
-#define SPEAKER_PIN 3 // Pin connected to the mini speaker
+#define SPEAKER_PIN 3
 
 bool songPlayed = false;
 
