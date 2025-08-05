@@ -14,7 +14,7 @@ void loop() {
   int csharp = 277;
   int d = 293;
   int dsharp = 311;
-  int e = 329
+  int e = 329;
   int f = 349;
   int fsharp = 370;
   int g = 392;
