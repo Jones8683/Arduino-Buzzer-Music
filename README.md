@@ -7,18 +7,18 @@ What you'll need:
 * USB Type-A to Type-B cable
 * Arduino Jumper Wires
 * Arduino IDE 1 or 2 software installed on your PC
-* [Arduino Compatible Buzzer](https://www.jaycar.com.au/duinotech-arduino-compatible-active-buzzer-module/p/XC4424)
+* [Arduino Compatible Buzzer](https://www.jaycar.com.au/duinotech-arduino-compatible-active-buzzer-module/p/XC4424) or similar
 
 ## Setup
 1. Download chosen INO files
 2. Open file in Arduino IDE, select your board, and upload the file to the board
 
-## Components Setup
-Buzzer left pin (–) → Arduino GND
-
-Buzzer middle pin (VCC) → Arduino 5V
-
-Buzzer right pin (S) → Arduino Digital Pin 3
+## Components Setup Connections
+| Uno Board | Buzzer |
+|-----------|--------|
+|GND        |Left Pin (–)|
+|5V         |   Middle Pin (VCC)  |
+|Digital Pin 3 | Right Pin (S)
 
 
 
