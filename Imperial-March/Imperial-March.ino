@@ -26,7 +26,7 @@
   const int HIGH_A = 880;
   const int HIGH_A_SHARP = 932;
   const int HIGH_B = 987;
-  
+
   const int HIGH_HIGH_C = 1046;
   const int HIGH_HIGH_C_SHARP = 1108;
   const int HIGH_HIGH_D = 1174;
@@ -36,6 +36,10 @@
   const int HIGH_HIGH_F_SHARP = 1479;
   const int HIGH_HIGH_G = 1567;
   const int HIGH_HIGH_G_SHARP = 1661;
+  const int HIGH_HIGH_A = 1760;
+  const int HIGH_HIGH_A_SHARP = 1865;
+  const int HIGH_HIGH_B = 1976;
+
 
 bool songPlayed = false;
 

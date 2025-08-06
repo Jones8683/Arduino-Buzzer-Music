@@ -1,6 +1,17 @@
 #define SPEAKER_PIN 3
 
   // Define frequencies for each note
+  const int lowlowerf = 43;
+  const int lowerf = 87;
+  const int lowlowasharp = 116;
+
+  const int lowcsharp = 138;
+  const int lowf = 174;
+  const int lowg = 195;
+  const int lowgsharp = 207;
+  const int lowasharp = 233;
+  const int lowb = 246;
+
   const int c = 261;
   const int csharp = 277;
   const int d = 293;
@@ -13,6 +24,9 @@
   const int a = 440;
   const int asharp = 466;
   const int b = 493;
+
+  const int hic = 523;
+  const int hicsharp = 554;
   const int hid = 587;
   const int hidsharp = 622;
   const int hig = 783;
@@ -20,11 +34,10 @@
   const int hifsharp = 739;   
   const int hif = 698;
   const int hie = 659;
-  const int hicsharp = 554;
-  const int hic = 523;
   const int hia = 880;
   const int hiasharp = 932;
   const int hib = 987;
+
   const int hihic = 1046;
   const int hihicsharp = 1108;
   const int hihid = 1174;
@@ -34,15 +47,9 @@
   const int hihifsharp = 1479;
   const int hihig = 1567;
   const int hihigsharp = 1661;
-  const int lowf = 174;
-  const int lowg = 195;
-  const int lowgsharp = 207;
-  const int lowcsharp = 138;
-  const int lowerf = 87;
-  const int lowlowerf = 43;
-  const int lowasharp = 233;
-  const int lowlowasharp = 116;
-  const int lowb = 246;
+  const int HIGH_HIGH_A = 1760;
+  const int HIGH_HIGH_A_SHARP = 1865;
+  const int HIGH_HIGH_B = 1976;
 
 bool songPlayed = false;
 
