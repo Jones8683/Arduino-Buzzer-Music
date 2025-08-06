@@ -59,7 +59,7 @@ void setup() {
 void loop() {
   if (!songPlayed) {
 
-  // Play the melody
+  // Main melody
   tone(SPEAKER_PIN, LOW_LOW_F, 900);
   tone(SPEAKER_PIN, LOW_F, 900);
   delay(900);
@@ -211,7 +211,8 @@ void loop() {
   tone(SPEAKER_PIN, E, 900);
   tone(SPEAKER_PIN, G, 1600);
   delay(1800);
-    
+  
+  // Middle section
   tone(SPEAKER_PIN, HIGH_F, 250); 
   tone(SPEAKER_PIN, F, 250); 
   delay(250);
@@ -382,6 +383,7 @@ void loop() {
   tone(SPEAKER_PIN, HIGH_E, 500); 
   delay(500);
 
+  // Softens and slows down
   tone(SPEAKER_PIN, HIGH_F, 1800); 
   tone(SPEAKER_PIN, F, 1800); 
   delay(1800);
