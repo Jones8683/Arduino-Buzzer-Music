@@ -13,6 +13,7 @@
   const int A = 440;
   const int A_SHARP = 466;
   const int B = 493;
+
   const int HIGH_C = 523;
   const int HIGH_C_SHARP = 554;
   const int HIGH_D = 587;
@@ -25,6 +26,7 @@
   const int HIGH_A = 880;
   const int HIGH_A_SHARP = 932;
   const int HIGH_B = 987;
+  
   const int HIGH_HIGH_C = 1046;
   const int HIGH_HIGH_C_SHARP = 1108;
   const int HIGH_HIGH_D = 1174;
