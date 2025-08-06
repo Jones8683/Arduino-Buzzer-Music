@@ -7,7 +7,7 @@ What you'll need:
 * USB Type-A to Type-B cable
 * Arduino Jumper Wires
 * Arduino IDE 1 or 2 software installed on your PC
-* [Arduino Compatible Passive Buzzer]([https://www.jaycar.com.au/duinotech-arduino-compatible-active-buzzer-module/p/XC4424](https://www.thegeekpub.com/wiki/sensor-wiki-ky-006-passive-piezo-buzzer-module/)) or similar
+* [Arduino Compatible Passive Buzzer](https://www.thegeekpub.com/wiki/sensor-wiki-ky-006-passive-piezo-buzzer-module/) or similar
 
 ## Setup
 1. Download chosen INO files
