@@ -1,5 +1,49 @@
 #define SPEAKER_PIN 3
 
+  // Define frequencies for each note
+  const int c = 261;
+  const int csharp = 277;
+  const int d = 293;
+  const int dsharp = 311;
+  const int e = 329;
+  const int f = 349;
+  const int fsharp = 370;
+  const int g = 392;
+  const int gsharp = 415;
+  const int a = 440;
+  const int asharp = 466;
+  const int b = 493;
+  const int hid = 587;
+  const int hidsharp = 622;
+  const int hig = 783;
+  const int higsharp = 830;
+  const int hifsharp = 739;   
+  const int hif = 698;
+  const int hie = 659;
+  const int hicsharp = 554;
+  const int hic = 523;
+  const int hia = 880;
+  const int hiasharp = 932;
+  const int hib = 987;
+  const int hihic = 1046;
+  const int hihicsharp = 1108;
+  const int hihid = 1174;
+  const int hihidsharp = 1244;
+  const int hihie = 1318;
+  const int hihif = 1396;
+  const int hihifsharp = 1479;
+  const int hihig = 1567;
+  const int hihigsharp = 1661;
+  const int lowf = 174;
+  const int lowg = 195;
+  const int lowgsharp = 207;
+  const int lowcsharp = 138;
+  const int lowerf = 87;
+  const int lowlowerf = 43;
+  const int lowasharp = 233;
+  const int lowlowasharp = 116;
+  const int lowb = 246;
+
 bool songPlayed = false;
 
 void setup() {
@@ -8,53 +52,6 @@ void setup() {
 
 void loop() {
    if (!songPlayed) {
-
-  // Define frequencies for each note
-  int c = 261;
-  int csharp = 277;
-  int d = 293;
-  int dsharp = 311;
-  int e = 329;
-  int f = 349;
-  int fsharp = 370;
-  int g = 392;
-  int gsharp = 415;
-  int a = 440;
-  int asharp = 466;
-  int b = 493;
-  int hid = 587;
-  int hidsharp = 622;
-  int hig = 783;
-  int higsharp = 830;
-  int hifsharp = 739;   
-  int hif = 698;
-  int hie = 659;
-  int hicsharp = 554;
-  int hic = 523;
-  int hia = 880;
-  int hiasharp = 932;
-  int hib = 987;
-  int hihic = 1046;
-  int hihicsharp = 1108;
-  int hihid = 1174;
-  int hihidsharp = 1244;
-  int hihie = 1318;
-  int hihif = 1396;
-  int hihifsharp = 1479;
-  int hihig = 1567;
-  int hihigsharp = 1661;
-  int lowf = 174;
-  int lowg = 195;
-  int lowgsharp = 207;
-  int lowcsharp = 138;
-  int lowerf = 87;
-  int lowlowerf = 43;
-  int lowasharp = 233;
-  int lowlowasharp = 116;
-  int lowb = 246;
-
-  //First Number = how long the note is played for
-  //Second Number = delay before next note 
 
   // Play the melody
   tone(SPEAKER_PIN, lowerf, 900);
