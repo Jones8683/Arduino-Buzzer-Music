@@ -14,11 +14,11 @@ What you'll need:
 2. Open file in Arduino IDE, select your board, and upload the file to the board
 
 ## Components Setup Connections
-| Uno Board | Buzzer |
-|-----------|--------|
-|GND        |Left Pin (–)|
-|5V         |   Middle Pin (VCC)  |
-|Digital Pin 3 | Right Pin (S)
+| Uno Board    | Buzzer         |
+|--------------|----------------|
+|GND           |Left Pin (–)    |
+|5V            |Middle Pin (VCC)|
+|Digital Pin 3 |Right Pin (S)   |
 
 
 
