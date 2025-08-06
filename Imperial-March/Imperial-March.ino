@@ -49,7 +49,7 @@ void setup() {
 
 void loop() {
    if (!songPlayed) {
-
+    
   // Main melody
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
@@ -341,6 +341,7 @@ void loop() {
   tone(SPEAKER_PIN, D_SHARP, 350); delay(350);
   tone(SPEAKER_PIN, A_SHARP, 150); delay(150);
   tone(SPEAKER_PIN, G, 2500); delay(2500);
+  // End of song
   
  songPlayed = true;
   }
