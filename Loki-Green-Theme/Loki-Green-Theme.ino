@@ -57,7 +57,7 @@ void setup() {
 }
 
 void loop() {
-   if (!songPlayed) {
+  if (!songPlayed) {
 
   // Play the melody
   tone(SPEAKER_PIN, LOW_LOW_F, 900);
@@ -68,12 +68,12 @@ void loop() {
   tone(SPEAKER_PIN, G_SHARP, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 900); delay(900);
-  
+    
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_G_SHARP, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_HIGH_C, 900); delay(900);
-  
+    
   tone(SPEAKER_PIN, F, 300);
   tone(SPEAKER_PIN, LOW_F, 300);
   delay(300);
@@ -86,12 +86,12 @@ void loop() {
   tone(SPEAKER_PIN, C_SHARP, 300);
   tone(SPEAKER_PIN, LOW_C_SHARP, 900);
   delay(900);
- 
+  
   tone(SPEAKER_PIN, F, 50); delay(50);
   tone(SPEAKER_PIN, G_SHARP, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 900); delay(900);
-  
+    
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_G_SHARP, 50); delay(50);
@@ -114,7 +114,7 @@ void loop() {
   tone(SPEAKER_PIN, G_SHARP, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 900); delay(900);
-  
+    
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_G_SHARP, 50); delay(50);
@@ -143,7 +143,7 @@ void loop() {
   tone(SPEAKER_PIN, G_SHARP, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 900); delay(900);
-  
+    
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_G_SHARP, 50); delay(50);
@@ -161,12 +161,12 @@ void loop() {
   tone(SPEAKER_PIN, C_SHARP, 300);
   tone(SPEAKER_PIN, LOW_C_SHARP, 900);
   delay(900);
- 
+  
   tone(SPEAKER_PIN, F, 50); delay(50);
   tone(SPEAKER_PIN, G_SHARP, 50); delay(50);
-  tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
+   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 900); delay(900);
-  
+    
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_G_SHARP, 50); delay(50);
@@ -189,7 +189,7 @@ void loop() {
   tone(SPEAKER_PIN, G_SHARP, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 900); delay(900);
-  
+    
   tone(SPEAKER_PIN, HIGH_C, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_F, 50); delay(50);
   tone(SPEAKER_PIN, HIGH_G_SHARP, 50); delay(50);
@@ -211,7 +211,7 @@ void loop() {
   tone(SPEAKER_PIN, E, 900);
   tone(SPEAKER_PIN, G, 1600);
   delay(1800);
-  
+    
   tone(SPEAKER_PIN, HIGH_F, 250); 
   tone(SPEAKER_PIN, F, 250); 
   delay(250);
@@ -393,6 +393,6 @@ void loop() {
   tone(SPEAKER_PIN, HIGH_C, 500); delay(500);
   tone(SPEAKER_PIN, A_SHARP, 1800); delay(1800);
 
- songPlayed = true; 
-  }
+songPlayed = true; 
+   }
 }
