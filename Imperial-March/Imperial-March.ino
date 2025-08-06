@@ -265,7 +265,7 @@ void loop() {
   tone(SPEAKER_PIN, B, 250); delay(250);
   tone(SPEAKER_PIN, G_SHARP, 250); delay(250);
 
-  // Return to main melody
+  // Return to the main melody
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
