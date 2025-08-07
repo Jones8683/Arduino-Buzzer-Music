@@ -20,10 +20,4 @@ What you'll need:
 |5V            |Middle Pin (VCC)|
 |Digital Pin 3 |Right Pin (S)   |
 
-<img src="https://github.com/user-attachments/assets/44fcf9d8-a7cb-4691-b5db-f4e275a20e03" alt="image" />
-
-
-
-
-
-
+<img width="1376" height="599" alt="Remove background project" src="https://github.com/user-attachments/assets/0cf33765-f76a-439e-aee8-24d9d18de347" />
