@@ -66,7 +66,6 @@
   const int HIGH_HIGH_A_SHARP = 1865;
   const int HIGH_HIGH_B = 1976;
 
-
 bool songPlayed = false;
 
 void setup() {
@@ -76,9 +75,33 @@ void setup() {
 void loop() {
    if (!songPlayed) {
     
-  // Main melody
-  tone(SPEAKER_PIN, C, 500); delay(500);
-  // End of song
+  // 1 crotchet = 650ms  
+  tone(SPEAKER_PIN, D, 217); delay(217);
+  tone(SPEAKER_PIN, D, 217); delay(217);
+  tone(SPEAKER_PIN, D, 217); delay(217);
+  tone(SPEAKER_PIN, G, 1300); delay(650);
+  tone(SPEAKER_PIN, LOW_G, 650); delay(650);
+  tone(SPEAKER_PIN, HIGH_D, 1300); delay(650);
+  tone(SPEAKER_PIN, LOW_G, 650); delay(650);
+
+  tone(SPEAKER_PIN, HIGH_C, 217); delay(217);
+  tone(SPEAKER_PIN, B, 217); delay(217);
+  tone(SPEAKER_PIN, A, 217); delay(217);
+  tone(SPEAKER_PIN, HIGH_G, 1300); delay(650);
+  tone(SPEAKER_PIN, LOW_D, 1300); delay(650);
+  tone(SPEAKER_PIN, HIGH_D, 650); delay(650);
+
+  tone(SPEAKER_PIN, HIGH_C, 217); delay(217);
+  tone(SPEAKER_PIN, B, 217); delay(217);
+  tone(SPEAKER_PIN, A, 217); delay(217);
+  tone(SPEAKER_PIN, HIGH_G, 1300); delay(650);
+  tone(SPEAKER_PIN, LOW_D, 1300); delay(650);
+  tone(SPEAKER_PIN, HIGH_D, 650); delay(650);
+
+  tone(SPEAKER_PIN, HIGH_C, 217); delay(217);
+  tone(SPEAKER_PIN, B, 217); delay(217);
+  tone(SPEAKER_PIN, HIGH_C, 217); delay(217);
+  tone(SPEAKER_PIN, A, 1300); delay(1300);
   
  songPlayed = true;
   }

@@ -76,7 +76,7 @@ void setup() {
 void loop() {
    if (!songPlayed) {
     
-  // Main melody
+  // 1 crotchet = 500ms  
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
@@ -153,7 +153,6 @@ void loop() {
   tone(SPEAKER_PIN, A_SHARP, 150); delay(150);
   tone(SPEAKER_PIN, G, 1000); delay(1000);
 
-  // Main melody repeated
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
@@ -202,7 +201,6 @@ void loop() {
   tone(SPEAKER_PIN, A_SHARP, 150); delay(150);
   tone(SPEAKER_PIN, G, 1000); delay(1000);
 
-  // Middle section
   tone(SPEAKER_PIN, D, 250); delay(250);
   tone(SPEAKER_PIN, HIGH_D, 250); delay(250);
   tone(SPEAKER_PIN, HIGH_D_SHARP, 250); delay(250);
@@ -367,7 +365,6 @@ void loop() {
   tone(SPEAKER_PIN, D_SHARP, 350); delay(350);
   tone(SPEAKER_PIN, A_SHARP, 150); delay(150);
   tone(SPEAKER_PIN, G, 2500); delay(2500);
-  // End of song
   
  songPlayed = true;
   }
