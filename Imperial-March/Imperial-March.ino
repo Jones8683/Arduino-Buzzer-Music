@@ -1,6 +1,32 @@
 #define SPEAKER_PIN 3
 
   // Define frequencies for each note
+  const int LOW_LOW_C = 65;
+  const int LOW_LOW_C_SHARP  = 69;
+  const int LOW_LOW_D = 73;
+  const int LOW_LOW_D_SHARP = 78;
+  const int LOW_LOW_E = 82;
+  const int LOW_LOW_F = 92;
+  const int LOW_LOW_F_SHARP = 87;
+  const int LOW_LOW_G = 98;
+  const int LOW_LOW_G_SHARP = 103;
+  const int LOW_LOW_A = 110;
+  const int LOW_LOW_A_SHARP = 116;
+  const int LOW_LOW_B = 123;
+
+  const int LOW_C = 131;
+  const int LOW_C_SHARP = 138;
+  const int LOW_D = 146;
+  const int LOW_D_SHARP = 155;
+  const int LOW_E = 165;
+  const int LOW_F = 174;
+  const int LOW_F_SHARP = 185;
+  const int LOW_G = 196;
+  const int LOW_G_SHARP = 207;
+  const int LOW_A = 120;
+  const int LOW_A_SHARP = 233;
+  const int LOW_B = 247;
+
   const int C = 261;
   const int C_SHARP = 277;
   const int D = 293;
