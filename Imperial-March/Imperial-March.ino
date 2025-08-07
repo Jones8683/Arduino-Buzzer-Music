@@ -77,6 +77,50 @@ void loop() {
    if (!songPlayed) {
     
   // 1 crotchet = 500ms  
+  tone(SPEAKER_PIN, LOW_G, 500); delay(500);
+  tone(SPEAKER_PIN, LOW_G, 250); delay(250);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 250); delay(250);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 250); delay(250);
+
+  tone(SPEAKER_PIN, LOW_G, 500); delay(500);
+  tone(SPEAKER_PIN, LOW_G, 250); delay(250);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 250); delay(250);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 250); delay(250);
+
+  tone(SPEAKER_PIN, LOW_G, 500); delay(500);
+  tone(SPEAKER_PIN, LOW_G, 250); delay(250);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 250); delay(250);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 250); delay(250);
+
+  tone(SPEAKER_PIN, LOW_G, 500); delay(500);
+  tone(SPEAKER_PIN, LOW_G, 250); delay(250);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 250); delay(250);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_G, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 125); delay(125);
+  tone(SPEAKER_PIN, LOW_F_SHARP, 250); delay(250);
+
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
   tone(SPEAKER_PIN, G, 500); delay(500);
