@@ -20,7 +20,7 @@ What you'll need:
 |5V            |Middle Pin (VCC)|
 |Digital Pin 3 |Right Pin (S)   |
 
-<img src="https://github.com/user-attachments/assets/44fcf9d8-a7cb-4691-b5db-f4e275a20e03" width="400" alt="image" />
+<img src="https://github.com/user-attachments/assets/44fcf9d8-a7cb-4691-b5db-f4e275a20e03" alt="image" />
 
 
 
