@@ -77,6 +77,9 @@ void loop() {
     
   // 1 crotchet = 300  
   tone(SPEAKER_PIN, A, 300); delay(300);
+  tone(SPEAKER_PIN, HIGH_D, 300); delay(300);
+  tone(SPEAKER_PIN, A, 300); delay(300);
+  tone(SPEAKER_PIN, HIGH_D, 300); delay(300);
 
  songPlayed = true;
   }
