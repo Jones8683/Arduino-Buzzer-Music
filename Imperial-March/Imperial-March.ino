@@ -141,6 +141,8 @@ void loop() {
   tone(SPEAKER_PIN, A_SHARP, 150); delay(150);
   tone(SPEAKER_PIN, G, 1000); delay(1000);
 
+  
+
   tone(SPEAKER_PIN, HIGH_G, 500); delay(500);
   tone(SPEAKER_PIN, G, 350); delay(350);
   tone(SPEAKER_PIN, G, 150); delay(150);
