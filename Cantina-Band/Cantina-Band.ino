@@ -75,7 +75,14 @@ void setup() {
 void loop() {
    if (!songPlayed) {
     
-  // 1 crotchet = 300  
+  // 1 crotchet = 227ms
+  tone(SPEAKER_PIN, A, 160); delay(227);
+  tone(SPEAKER_PIN, HIGH_D, 160); delay(227);
+  tone(SPEAKER_PIN, A, 160); delay(227);
+  tone(SPEAKER_PIN, HIGH_D, 160); delay(227);
+  tone(SPEAKER_PIN, A, 113); delay(113);
+  tone(SPEAKER_PIN, HIGH_D, 227); delay(227);
+  tone(SPEAKER_PIN, A, 227); delay(227);
 
  songPlayed = true;
   }
