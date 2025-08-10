@@ -84,6 +84,9 @@ void loop() {
   tone(SPEAKER_PIN, HIGH_D, 227); delay(227);
   tone(SPEAKER_PIN, A, 227); delay(227);
 
+  tone(SPEAKER_PIN, G_SHARP, 113); delay(113);
+  tone(SPEAKER_PIN, A, 227); delay(227);
+
  songPlayed = true;
   }
 }
