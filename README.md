@@ -1,5 +1,5 @@
-# Arduino Uno Mini Buzzer Music
-A small collection of simple songs that can be played on a simple Arduino Uno board with a mini buzzer
+# Arduino Uno Buzzer Music
+A small collection of songs that can be played on a simple Arduino Uno board with a mini passive buzzer
 
 What you'll need:
 * Arduino Uno Board
