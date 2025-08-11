@@ -2,11 +2,10 @@
 A collection of songs that can be played on an Arduino Uno board with a Piezo Passive Buzzer
 
 What you'll need:
+* Arduino IDE
 * Arduino Uno Board
-* Arduino Breadboard (optional)
-* USB Type-A to Type-B cable
 * Arduino Jumper Wires
-* Arduino IDE 1 or 2 software installed on your PC
+* USB Type-A to Type-B cable
 * [Arduino Compatible Passive Buzzer](https://www.thegeekpub.com/wiki/sensor-wiki-ky-006-passive-piezo-buzzer-module/) or similar
 
 ## Setup
