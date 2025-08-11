@@ -8,11 +8,11 @@ What you'll need:
 * USB Type-A to Type-B cable
 * [Arduino Compatible Passive Buzzer](https://www.thegeekpub.com/wiki/sensor-wiki-ky-006-passive-piezo-buzzer-module/) or similar
 
-## Setup
+## Code Setup
 1. Download chosen INO files
 2. Open file in Arduino IDE, select your board, and upload the file to the board
 
-## Components Setup Connections
+## Hardware Setup
 | Uno Board    | Buzzer         |
 |--------------|----------------|
 |GND           |Left Pin (–)    |
