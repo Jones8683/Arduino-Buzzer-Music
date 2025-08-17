@@ -76,75 +76,53 @@ void loop() {
    if (!songPlayed) {
     
   // 1 crotchet = 227ms
-  tone(SPEAKER_PIN, A, 160); delay(227);
-  tone(SPEAKER_PIN, HIGH_D, 160); delay(227);
-  tone(SPEAKER_PIN, A, 160); delay(227);
-  tone(SPEAKER_PIN, HIGH_D, 160); delay(227);
-  tone(SPEAKER_PIN, A, 113); delay(113);
-  tone(SPEAKER_PIN, HIGH_D, 227); delay(227);
-  tone(SPEAKER_PIN, A, 227); delay(227);
 
-  tone(SPEAKER_PIN, G_SHARP, 113); delay(113);
-  tone(SPEAKER_PIN, A, 227); delay(227);
-  tone(SPEAKER_PIN, A, 113); delay(113);
-  tone(SPEAKER_PIN, G_SHARP, 113); delay(113);
-  tone(SPEAKER_PIN, A, 113); delay(113);
-  tone(SPEAKER_PIN, G, 150); delay(227);
 
-  tone(SPEAKER_PIN, F_SHARP, 113); delay(113);
-  tone(SPEAKER_PIN, G, 113); delay(113);
-  tone(SPEAKER_PIN, F_SHARP, 113); delay(113);
+  tone(SPEAKER_PIN, A, 227); delay(227);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, A, 180); delay(740);
+
+  tone(SPEAKER_PIN, A, 227); delay(227);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, A, 180); delay(740);
+
+  tone(SPEAKER_PIN, A, 227); delay(227);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, G_SHARP, 227); delay(227);
+  tone(SPEAKER_PIN, A, 227); delay(227);
   tone(SPEAKER_PIN, F, 400); delay(400);
-  tone(SPEAKER_PIN, D, 400); delay(567);
+  tone(SPEAKER_PIN, D, 300); delay(567);
 
-  tone(SPEAKER_PIN, A, 160); delay(227);
-  tone(SPEAKER_PIN, HIGH_D, 160); delay(227);
-  tone(SPEAKER_PIN, A, 160); delay(227);
-  tone(SPEAKER_PIN, HIGH_D, 160); delay(227);
-  tone(SPEAKER_PIN, A, 113); delay(113);
-  tone(SPEAKER_PIN, HIGH_D, 227); delay(227);
   tone(SPEAKER_PIN, A, 227); delay(227);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, A, 180); delay(740);
 
-  tone(SPEAKER_PIN, G_SHARP, 113); delay(113);
   tone(SPEAKER_PIN, A, 227); delay(227);
-  tone(SPEAKER_PIN, G, 227); delay(227);
-  tone(SPEAKER_PIN, G, 340); delay(340);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, A, 180); delay(740);
 
-  tone(SPEAKER_PIN, F_SHARP, 113); delay(113);
-  tone(SPEAKER_PIN, G, 227); delay(227);
-  tone(SPEAKER_PIN, HIGH_C, 160); delay(227);
-  tone(SPEAKER_PIN, A_SHARP, 160); delay(227);
-  tone(SPEAKER_PIN, A, 160); delay(227);
-  tone(SPEAKER_PIN, G, 160); delay(227);
-
-  tone(SPEAKER_PIN, A, 160); delay(227);
-  tone(SPEAKER_PIN, HIGH_D, 160); delay(227);
-  tone(SPEAKER_PIN, A, 160); delay(227);
-  tone(SPEAKER_PIN, HIGH_D, 160); delay(227);
-  tone(SPEAKER_PIN, A, 113); delay(113);
-  tone(SPEAKER_PIN, HIGH_D, 227); delay(227);
   tone(SPEAKER_PIN, A, 227); delay(227);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, G_SHARP, 227); delay(227);
+  tone(SPEAKER_PIN, A, 280); delay(300);
+  tone(SPEAKER_PIN, G, 454); delay(454);
+  tone(SPEAKER_PIN, C, 300); delay(454);
 
-  tone(SPEAKER_PIN, G_SHARP, 113); delay(113);
   tone(SPEAKER_PIN, A, 227); delay(227);
-  tone(SPEAKER_PIN, HIGH_C, 227); delay(227);
-  tone(SPEAKER_PIN, HIGH_C, 340); delay(340);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, A, 180); delay(740);
 
-  tone(SPEAKER_PIN, A, 113); delay(113);
-  tone(SPEAKER_PIN, G, 227); delay(227);
+  tone(SPEAKER_PIN, A, 227); delay(227);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, A, 180); delay(740);
+
+  tone(SPEAKER_PIN, A, 227); delay(227);
+  tone(SPEAKER_PIN, F, 113); delay(113);
+  tone(SPEAKER_PIN, G_SHARP, 227); delay(227);
+  tone(SPEAKER_PIN, A, 280); delay(300);
   tone(SPEAKER_PIN, F, 400); delay(400);
-  tone(SPEAKER_PIN, D, 567); delay(567); 
+  tone(SPEAKER_PIN, D, 300); delay(567);
 
-  tone(SPEAKER_PIN, D, 454); delay(454); 
-  tone(SPEAKER_PIN, F, 454); delay(454);
-  tone(SPEAKER_PIN, A, 454); delay(454);
-  tone(SPEAKER_PIN, HIGH_C, 454); delay(454);
-
-  tone(SPEAKER_PIN, HIGH_D_SHARP, 227); delay(227);
-  tone(SPEAKER_PIN, HIGH_D, 227); delay(227);
-  tone(SPEAKER_PIN, G_SHARP, 113); delay(113);
-  tone(SPEAKER_PIN, A, 227); delay(227);
-  tone(SPEAKER_PIN, F, 908); delay(908);
  songPlayed = true;
   }
 }
