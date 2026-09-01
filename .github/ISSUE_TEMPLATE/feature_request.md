@@ -1,10 +1,9 @@
 ---
 name: Feature request
-about: Suggest an idea or enchancement for this project
+about: Suggest an idea or enhancement for this project
 title: "[FR]"
 labels: enhancement
-assignees: ''
-
+assignees: ""
 ---
 
 **Describe your feature request**
