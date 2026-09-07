@@ -1,7 +1,8 @@
 # Arduino Buzzer Music
 A collection of songs that can be played on Arduino boards with a Piezo Passive Buzzer
 
-What you'll need:
+## What you'll need:
+
 * Arduino IDE
 * Arduino Uno Board
 * Arduino Jumper Wires
